@@ -13,7 +13,6 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 	<link rel="stylesheet" type="text/css" href="../css/app.css">
-	<link rel="stylesheet" type="text/css" href="../css/mystyles.css">
 
 </head>
 <body>
@@ -38,8 +37,8 @@
                         </button>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="profile.html">Profile</a>
-                            <a class="dropdown-item" href="#">Favorites</a>
-                            <a class="dropdown-item" href="#">Personal Recipes</a>
+                            <a class="dropdown-item" href="profile.html">Favorites</a>
+                            <a class="dropdown-item" href="add.html">Personal Recipes</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Sign out</a>
                         </div>
@@ -54,42 +53,77 @@
     <div id="user" class="container">
         <div class="row bg-faded">
             <ul class="list-inline">
-            <li class="list-inline-item"> <a href="#">About me</a> </li> 
-            <li class="list-inline-item"><a href="#">Favorites</a> </li>
+            <li class="list-inline-item"> <a href="profile.html">About me</a> </li> 
+            <li class="list-inline-item"><a href="profile.html">Favorites</a> </li>
             <li class="list-inline-item"><a href="#">My Reviews</a> </li> 
             <li class="list-inline-item"><a href="#">My Recipes</a> </li>
-            <li class="list-inline-item"><a href="#">Post New Recipes</a> </li>
+            <li class="list-inline-item"><a href="#add-recipe">Post New Recipes</a> </li>
             </ul>
         </div>
 
         <p class="menu-brand">My Recipes</p><hr>
         <div class="row row-container">
-                        <div class="col-xs-12 col-sm-6">
-                            <div class="illustration">
-                                <a href="recipe.html"><img src="../images/spaghetti-bolognese.jpg" class="img-fluid"></a>
-                                <p class="menu-brand">Spaghetti Bolognese</p>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6">
-                            <div class="illustration">
-                                <a href="recipe.html"><img src="../images/fish-curry-couscous1.jpg" class="img-fluid"></a>
-                                <p class="menu-brand">Fish Curry Couscous</p>
-                            </div>
-                        </div>
-                    </div>
-        <div class="row row-container">
-                    <div class="col-xs-12 col-sm-6">
-                        <div class="illustration">
-                            <a href="recipe.html"><img src="../images/turkey.jpg" class="img-fluid"></a>
-                            </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6">
-                        <div class="illustration">
-                            <a href="recipe.html"><img src="../images/brian-chan-12169.jpg" class="img-fluid"></a>
-                            <p class="menu-brand"> Pepper Chicken</p>
-                            </div>
-                    </div>
+            <div class="col-xs-12 col-sm-6">
+                <div class="illustration">
+                     <a href="../recipe.html"><img src="../images/spaghetti-bolognese.jpg" class="img-fluid"></a>
+                    <p class="menu-brand">Spaghetti Bolognese</p>
+                    <button class="btn btn-outline-success">View/update</button>
+                    <button class="btn btn-outline-success">Delete</button>
                 </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <div class="illustration">
+                        <a href="../recipe.html"><img src="../images/fish-curry-couscous1.jpg" class="img-fluid"></a>
+                    <p class="menu-brand">Fish Curry Couscous</p>
+                    <button class="btn btn-outline-success">View/update</button>
+                    <button class="btn btn-outline-success">Delete</button>
+                </div>
+            </div>
+        </div>
+        <div class="row row-container">
+            <div class="col-xs-12 col-sm-6">
+                <div class="illustration">
+                    <a href="../recipe.html"><img src="../images/turkey.jpg" class="img-fluid"></a>
+                    <p></p>
+                    <button class="btn btn-outline-success">View/update</button>
+                    <button class="btn btn-outline-success">Delete</button>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <div class="illustration">
+                    <a href="../recipe.html"><img src="../images/brian-chan-12169.jpg" class="img-fluid"></a>
+                    <p class="menu-brand"> Pepper Chicken</p>
+                    <button class="btn btn-outline-success">View/update</button>
+                    <button class="btn btn-outline-success">Delete</button>
+                </div>
+            </div>
+        </div>
+        <p class="menu-brand" id="add-recipe">Add Recipes</p><hr>
+        <div class="row row-container">
+            <div class="col-xs-12 col-sm-6">
+                <form class="form-horizontal" action="" name="">
+                    <fieldset>
+                        <label class="col-sm-3 control-label" for="name"></label>  
+                        <input id="name" name="name" placeholder="Recipe Name" class=" form-control" type="text" required>
+                        <label class="col-sm-3 control-label" for="ingredient"></label>
+                        <textarea class="form-control" id="ingredient" name="ingredient" rows="7" placeholder="Ingredients" required></textarea>
+                        <label class="col-sm-3 control-label" for="direction"></label>
+                        <textarea class="form-control" id="direction" name="direction" rows="7" placeholder="Method of Preparation"></textarea required>
+                        <div class="row form-group">
+                            <label for="image" class="col-sm-5 control-label"> Sample image of Recipe: </label>
+                            <div class="col-sm-7">
+                                <input type="file" class="form-control-file" id="image" name="image" required>
+                            </div>
+                        </div>
+                        <label class="col-sm-3 control-label" for=""></label>
+                        <input type="submit" id="submit" data-action="submit" data-role="none" value="Post" class="btn btn-outline-success"><br/>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+               <p class="menu-brand">Advertise here</p>
+            </div>
+        </div>
     </div>
 
 	<footer class="foot">

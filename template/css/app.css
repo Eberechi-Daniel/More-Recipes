@@ -5,3 +5,161 @@ body{
 	 padding-top: 52px;
 	font-family: 'Lato', sans-serif;
 }
+
+.navbar-brand {
+    color: rgb(154, 205, 50);
+}
+
+.bg-image{
+    padding: 150px 0px 20px;
+    min-height: 500px;
+    background: url(../images/cole-hutson-81377.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin-top: 8px;
+}
+
+.btn {
+    font-family: "Roboto",sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.row-container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+	padding: 20px 0px;
+}
+
+.tagline {
+    text-align: center;
+    margin: 0;
+    padding: 1em 1em;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+}
+
+p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.illustration {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    padding: 15px 0px;
+}
+
+.row-bg {
+    background-color: #F6F6F6;
+}
+
+.img-circle {
+    border-radius: 100%;
+}
+
+.row-testimonial {
+    background: #FFFFFF;
+}
+
+.foot {
+    position: relative;
+    width: 100%;
+    background: rgb(25, 24, 24);
+    padding: 10px 0px;
+    font-size: 0.8em;
+}
+
+.links {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.footer-tagline {
+    color: rgb(154, 205, 50);
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 10px 0px;
+}
+
+.links li a {
+    display: block;
+    color: #ccc;
+    font-family: Roboto, sans-serif;
+    font-size: 1em;
+    padding: 10px 0px;
+}
+
+
+.signup{
+    margin-bottom: 0px;
+    width:50%;
+    margin: auto;
+    padding: 20px 20px 10px;
+    min-height:480px;
+}
+input {
+    width: 100%;
+    font-size: 12px;
+}
+input[type="submit"] {
+    height: 50px;
+    padding: 0;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+h3{
+    text-align: right;
+    font-size: 1em;
+    padding-top: 8px;
+}
+a, a:hover, input:focus {
+    color: rgb(154, 205, 50);
+}
+
+.menu-brand {
+    padding-top: 15px;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+#wrapper {
+    width: 800px;
+    margin: auto;
+} 
+#wrapper .container {
+    max-width: 100%; display: block;
+}
+.fa-thumbs-up, .fa-thumbs-down {
+    color: rgb(154, 205, 50);
+}
+.fa-heart {
+    color:red;
+}
+
+#user .user-nav .list-inline > .active > a,
+#user .user-nav .list-inline > .active > a:hover,
+#user .user-nav .list-inline > .active > a:focus{
+    color: #fff;
+    background: #1A237E;
+}
+
+#user .row .list-inline .list-inline-item> a,
+#user .user-nav .list-inline .list-inline-item> a:hover,
+#user .user-nav .list-inline .list-inline-item> a:focus{
+    color: #666;
+    padding-left: 30px;
+}
+.search{
+    height:41px
+}
