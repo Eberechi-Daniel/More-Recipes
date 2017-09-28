@@ -13,7 +13,7 @@ body{
 .bg-image{
     padding: 150px 0px 20px;
     min-height: 500px;
-    background: url(../images/cole-hutson-81377.jpg) no-repeat;
+    background: url(../images/food-restaurant-kitchen-meat-23086.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     color: white;
@@ -104,14 +104,14 @@ p {
     width:50%;
     margin: auto;
     padding: 20px 20px 10px;
-    min-height:480px;
+    min-height:;
 }
 input {
     width: 100%;
     font-size: 12px;
 }
 input[type="submit"] {
-    height: 50px;
+    height: 40px;
     padding: 0;
     cursor: pointer;
     font-weight: 300;
@@ -123,8 +123,8 @@ h3{
     font-size: 1em;
     padding-top: 8px;
 }
-a, a:hover, input:focus {
-    color: rgb(154, 205, 50);
+a, a:hover {
+    color:black;
 }
 
 .menu-brand {
@@ -139,19 +139,10 @@ a, a:hover, input:focus {
 } 
 #wrapper .container {
     max-width: 100%; display: block;
-}
-.fa-thumbs-up, .fa-thumbs-down {
-    color: rgb(154, 205, 50);
+    margin:auto;
 }
 .fa-heart {
     color:red;
-}
-
-#user .user-nav .list-inline > .active > a,
-#user .user-nav .list-inline > .active > a:hover,
-#user .user-nav .list-inline > .active > a:focus{
-    color: #fff;
-    background: #1A237E;
 }
 
 #user .row .list-inline .list-inline-item> a,
@@ -160,6 +151,12 @@ a, a:hover, input:focus {
     color: #666;
     padding-left: 30px;
 }
+
 .search{
-    height:41px
+    height:41px;
+    margin-top: 5px;
+}
+
+.btn-outline-success{
+    margin-top: 5px;
 }

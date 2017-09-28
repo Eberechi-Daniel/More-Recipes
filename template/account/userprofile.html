@@ -36,8 +36,8 @@
                         Current User
                         </button>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="profile.html">Profile</a>
-                            <a class="dropdown-item" href="profile.html">Favorites</a>
+                            <a class="dropdown-item" href="#">Profile</a>
+                            <a class="dropdown-item" href="add.html">Favorites</a>
                             <a class="dropdown-item" href="add.html">Personal Recipes</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="../index.html">Sign out</a>
@@ -49,85 +49,77 @@
 		</nav>
         
     </header>
-        
+
     <div id="user" class="container">
         <div class="row bg-faded">
             <ul class="list-inline">
-            <li class="list-inline-item"> <a href="userprofile.html">About me</a> </li> 
-            <li class="list-inline-item"><a href="profile.html">Favorites</a> </li>
+            <li class="list-inline-item"> <a href="#">About me</a> </li> 
+            <li class="list-inline-item"><a href="#">Favorites</a> </li>
             <li class="list-inline-item"><a href="#">My Reviews</a> </li> 
-            <li class="list-inline-item"><a href="#">My Recipes</a> </li>
-            <li class="list-inline-item"><a href="#add-recipe">Post New Recipes</a> </li>
+            <li class="list-inline-item"><a href="add.html">My Recipes</a> </li>
+            <li class="list-inline-item"><a href="add.html?#add-recipe">Post New Recipes</a> </li>
             <li class="list-inline-item"><a href="#">Update Profile</a> </li>
             </ul>
         </div>
 
-        <p class="menu-brand">My Recipes</p><hr>
-        <div class="row row-container">
-            <div class="col-xs-12 col-sm-6">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4">
                 <div class="illustration">
-                     <a href="../recipe.html"><img src="../images/spaghetti-bolognese.jpg" class="img-fluid"></a>
-                    <p class="menu-brand">Spaghetti Bolognese</p>
-                    <button class="btn btn-outline-success"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
-                    <button class="btn btn-outline-success"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+                    <a href="recipe.html"><img src="../images/pp.jpg" class="img-fluid"></a>
+                    <p class="menu-brand">Your Picture</p>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-6">
-                <div class="illustration">
-                        <a href="../recipe.html"><img src="../images/fish-curry-couscous1.jpg" class="img-fluid"></a>
-                    <p class="menu-brand">Fish Curry Couscous</p>
-                    <button class="btn btn-outline-success"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
-                    <button class="btn btn-outline-success"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+            <div class="col-xm-12 col-sm-12 col-md-8">
+                <p class="menu-brand">Basic Information</p>
+                <div class="form-group row">
+                    <label for="name" class="col-2 col-form-label">Name</label>
+                    <div class="col-10">
+                        <input class="form-control" type="text" value=" Nwoge Eberechi" id="name">
+                    </div>
                 </div>
+                <div class="form-group row">
+                    <label for="username" class="col-2 col-form-label">Username</label>
+                    <div class="col-10">
+                    <input class="form-control" type="text" value="SpecialSpecie" id="username">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="email" class="col-2 col-form-label">Email</label>
+                    <div class="col-10">
+                    <input class="form-control" type="email" value="myemail@example.com" id="email">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="example-tel-input" class="col-2 col-form-label">Telephone</label>
+                    <div class="col-10">
+                    <input class="form-control" type="tel" id="example-tel-input">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="password" class="col-2 col-form-label">Password</label>
+                    <div class="col-10">
+                    <input class="form-control" type="password" id="password">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="cPassword" class="col-2 col-form-label">Confirm Password</label>
+                    <div class="col-10">
+                    <input class="form-control" type="password" value="" id="cpassword">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="date" class="col-2 col-form-label">Date Of Birth</label>
+                    <div class="col-10">
+                    <input class="form-control" type="date" id="date">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-success">Update Profile</button>
             </div>
         </div>
-        <div class="row row-container">
-            <div class="col-xs-12 col-sm-6">
-                <div class="illustration">
-                    <a href="../recipe.html"><img src="../images/turkey.jpg" class="img-fluid"></a>
-                    <p></p>
-                    <button class="btn btn-outline-success"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></button>
-                    <button class="btn btn-outline-success"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-                <div class="illustration">
-                    <a href="../recipe.html"><img src="../images/brian-chan-12169.jpg" class="img-fluid"></a>
-                    <p class="menu-brand"> Pepper Chicken</p>
-                    <button class="btn btn-outline-success"><i class="fa fa-2x fa-pencil-square-o" aria-hidden="true"></i></button>
-                    <button class="btn btn-outline-success"><i class="fa fa-2x fa-trash-o" aria-hidden="true"></i></button>
-                </div>
-            </div>
-        </div>
-        <p class="menu-brand" id="add-recipe">Add Recipes</p><hr>
-        <div class="row row-container">
-            <div class="col-xs-12 col-sm-6">
-                <form class="form-horizontal" action="" name="">
-                    <fieldset>
-                        <label class="col-sm-3 control-label" for="name"></label>  
-                        <input id="name" name="name" placeholder="Recipe Name" class=" form-control" type="text" required>
-                        <label class="col-sm-3 control-label" for="ingredient"></label>
-                        <textarea class="form-control" id="ingredient" name="ingredient" rows="7" placeholder="Ingredients" required></textarea>
-                        <label class="col-sm-3 control-label" for="direction"></label>
-                        <textarea class="form-control" id="direction" name="direction" rows="7" placeholder="Method of Preparation"></textarea required>
-                        <div class="row form-group">
-                            <label for="image" class="col-sm-5 control-label"> Sample image of Recipe: </label>
-                            <div class="col-sm-7">
-                                <input type="file" class="form-control-file" id="image" name="image" required>
-                            </div>
-                        </div>
-                        <label class="col-sm-3 control-label" for=""></label>
-                        <input type="submit" id="submit" data-action="submit" data-role="none" value="Post" class="btn btn-outline-success"><br/>
-                    </fieldset>
-                </form>
-            </div>
-            <div class="col-xs-12 col-sm-6">
-               <p class="menu-brand">Advertise here</p>
-            </div>
-        </div>
+
     </div>
 
-	<footer class="foot">
+<footer class="foot">
         <div class="container">
             <div class="row row-container">
                 <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
@@ -187,7 +179,8 @@
         </div>
     </footer>
 
-	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>
