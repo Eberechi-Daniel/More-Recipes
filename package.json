@@ -1,0 +1,24 @@
+{
+  "name": "more-recipes",
+  "version": "1.0.0",
+  "description": "More-Recipe is an online platform for users to view and share awesome and exciting  recipe ideas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eberechi-Daniel/More-Recipes.git"
+  },
+  "author": "Nwoge Eberechi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eberechi-Daniel/More-Recipes/issues"
+  },
+  "homepage": "https://github.com/Eberechi-Daniel/More-Recipes#readme",
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb-base": "^12.0.1",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
