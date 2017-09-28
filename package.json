@@ -25,6 +25,8 @@
     "eslint-plugin-import": "^2.7.0"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.5",
     "nodemon": "^1.12.1"
   }
 }
