@@ -7,7 +7,8 @@ const recipes = [{
         ],
         directions: 'Boil water for some minutes',
         upvote: 2,
-        downvote: 1
+        downvote: 1,
+        views: 7
     },
     {
         id: 2,
@@ -18,7 +19,8 @@ const recipes = [{
         ],
         directions: 'Mix your ....',
         upvote: 4,
-        downvote: 1
+        downvote: 1,
+        views: 4
     }
 ];
 
