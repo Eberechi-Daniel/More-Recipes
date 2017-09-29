@@ -1,8 +1,8 @@
 # More-Recipes
 
-##Introduction
+## Introduction
 ### **`More-Recipe`** is a full stack project built with [React] Framework that allows users to view and share awesome and exciting  recipe ideas.
-###It has the following features;
+### It has the following features;
     * User authentication
     * User can add recipe
     * User can get feedback in form of reviews and votes for the recipe he/she added
@@ -20,8 +20,8 @@
 ## Tech Stack
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-##Instalation ::
-###step 1:  Copy full folder in your web directory.
-###step 2:  launch the index page in your web browser.
+## Instalation ::
+### step 1:  Copy full folder in your web directory.
+### step 2:  launch the index page in your web browser.
 
 For any query or feedback contact me at eberechi.daniel@yahoo.com.
