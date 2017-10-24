@@ -20,8 +20,14 @@
 ## Tech Stack
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Instalation ::
-### step 1:  Copy full folder in your web directory.
-### step 2:  launch the index page in your web browser.
+## Installation and setup
+* Navigate to a directory of your choice on `terminal`.
+* Clone this repository on that directory using SSH or HTTP.
+
+* Using SSH;
+`>git clone git@github.com/Eberechi-Daniel/More-Recipes.git`
+
+* Using HTTP;
+`git clone https://github.com/Eberechi-Daniel/More-Recipes.git`
 
 For any query or feedback contact me at eberechi.daniel@yahoo.com.
